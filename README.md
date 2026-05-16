@@ -8,7 +8,7 @@
 
 ### 対象：`Source/VRM4ULoader/Private/VrmSkeleton.cpp`
 
-### 変更箇所**
+### 変更箇所
 
 - `snprintf(tmp, 512, ...)` の直後、`node->mName = tmp;` の直前に挿入.
 
@@ -61,10 +61,9 @@ LocalMaterialFinishParam(dm);
 
 
 ---
-## 確認
+## 確認と結果
 #### p01
 - FName重複ボーンのウェイトが反映される
-
 #### p02
 - bUseDitherAlpha = trueが有効
 - DitherAlphaにPMXの透過度が反映される
